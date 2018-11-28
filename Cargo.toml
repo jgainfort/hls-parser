@@ -1,0 +1,17 @@
+[package]
+name = "hls-parser"
+version = "0.1.0"
+authors = ["John G. Gainfort, Jr. <gainfortj@gmail.com>"]
+description = "A fast and lightweight HTTP Live Streaming (HLS) parsing WebAssembly library written in Rust"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/jgainfort/hls-parser"
+
+[profile.release]
+lto = true
+opt-level = 's'
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
