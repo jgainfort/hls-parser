@@ -1,0 +1,17 @@
+{
+  "name": "create-wasm-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.2",
+    "hls-parser": "0.1.0",
+    "prettier": "^1.15.3",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
